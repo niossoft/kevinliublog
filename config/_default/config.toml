@@ -1,4 +1,4 @@
-baseURL = "https://github.com/niossoft/kevinliublog.git"
+baseURL = "https://niossoft.github.io/kevinliublog/"
 title = "Kevin Liu Blog"
 theme = "zzo"
 
