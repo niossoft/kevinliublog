@@ -25,9 +25,9 @@ header:
     paddingY: 0
     align: center
     title:
-      - HUGO
+      - Kevin Liu's Blog
     subtitle:
-      - The world’s fastest framework for building websites
+      - software is murmuring with code.
     titleColor: 
     titleShadow: true
     titleFontSize: 44
