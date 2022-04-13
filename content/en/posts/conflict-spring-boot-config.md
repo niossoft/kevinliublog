@@ -10,14 +10,19 @@ enableTocContent: false
 author: Kevin Liu
 authorEmoji: 👻
 tags: 
+- troubleshooting
 - spring-boot
 - conflict
 - pom
 image: images/logo/spring-icon-svgrepo-com.svg
 ---
 
+### Troubleshooting
+
 To open eclipse project in the **Intellij** IDE, I'm getting no-error when trying to Build it up. But when I am trying run using **Maven** to run this project start getting message below.
 > Closing JPA EntityManagerFactory for persistence unit 'default' HikariPool-1 - Shutdown initiated, HikariPool-1 - Shutdown completed
+
+### Solution
 
 I find the solution on stackoverflow.
 
@@ -35,6 +40,7 @@ Maybe you can check your pom.xml, if it contains **BOTH** the spring-boot-starte
 {{< /highlight >}}
 
 ***
+### Reference
 
 Read more here on stackoverflow: 
 [spring-boot-starter-tomcat vs spring-boot-starter-web](https://stackoverflow.com/questions/33419823/spring-boot-starter-tomcat-vs-spring-boot-starter-web)
