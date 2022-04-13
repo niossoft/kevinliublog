@@ -2,8 +2,8 @@ baseURL = "https://niossoft.github.io/kevinliublog/"
 title = "Kevin Liu Blog"
 theme = "zzo"
 
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguage = "en" # en, eo, fa, fr, ko, zh
+defaultContentLanguageInSubdir = false
 hasCJKLanguage = true
 
 summaryLength = 70
