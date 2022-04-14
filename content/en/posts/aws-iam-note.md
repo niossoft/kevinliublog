@@ -76,7 +76,7 @@ Group only contain user, no other groups.
 + You want to protect your Root Account and IAM Users
 > MFA = password you know + security device you won
 
-**Main benefit** of MFA:
+**MAIN BENEFIT of MFA**:
 if a password is stolen or hacked, the account is not compromised 
 
 #### IAM Roles for Services
@@ -85,7 +85,24 @@ if a password is stolen or hacked, the account is not compromised
 + Common roles:
     + EC2 Instance Roles
     + Lambda Function Roles
-    + Roles for CloudFormation
+    + Roles for CloudFormation 
+
+#### IAM Security Tools
++ IAM Credentials Report(account-level)
+    + a report that lists all your account's users and the status of their variious credentials
++ IAM Access Advisor(user-level)
+    + Access advisor shows the service permissions granted to a user and when those services were last accessed
+    + You can use this information to revise your policies
+
+#### IAM Section - Summary
++ Users: mapped to a physical user, has a password for AWS Console
++ Groups: contians users only
++ Policies: JSON document that outlines permissions for users or groups
++ Roles: for EC2 instance or AWS services
++ Security: MFA + Password Policy
++ Access Keys: access AWS using the CLI or SDK
++ Audit: IAM Credential Reports & IAM Access Advisor
+
 
 
 
