@@ -29,7 +29,7 @@ header:
     subtitle:
       - software is murmuring with code.
     titleColor: 
-    titleShadow: true
+    titleShadow: false
     titleFontSize: 44
     subtitleColor: 
     subtitleCursive: true

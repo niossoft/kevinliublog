@@ -18,6 +18,8 @@ image: images/logo/git-icon-black.svg
 
 ### Deploy
 
+going to your hugo project path and check the cmd below, you can preview your blog content before push it on the remote repository.
+
 {{< highlight html >}}
 hugo server --disableFastRender
 {{< /highlight >}}

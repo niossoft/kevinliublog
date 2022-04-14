@@ -14,6 +14,10 @@ tags:
 - spring-boot
 - conflict
 - pom
+series:
+-
+categories:
+-
 image: images/logo/spring-icon-svgrepo-com.svg
 ---
 
