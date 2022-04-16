@@ -4,3 +4,6 @@
 [submodule "themes/themes/zzo-customized"]
 	path = themes/themes/zzo-customized
 	url = https://github.com/niossoft/zzo-customized.git
+[submodule "zzo-customized"]
+	path = zzo-customized
+	url = https://github.com/niossoft/zzo-customized.git
