@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>AWS on Kevin Liu Blog</title>
+    <link>https://niossoft.github.io/kevinliublog/ko/tags/aws/</link>
+    <description>Recent content in AWS on Kevin Liu Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <managingEditor>niossoft@gmail.com (Kevin Liu)</managingEditor>
+    <webMaster>niossoft@gmail.com (Kevin Liu)</webMaster>
+    <copyright>©2022, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 14 Apr 2022 18:45:06 +0900</lastBuildDate>
+    
+        <atom:link href="https://niossoft.github.io/kevinliublog/ko/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>AWS Solutions Architect Associate: IAM</title>
+        <link>https://niossoft.github.io/kevinliublog/ko/en/posts/aws-iam-note/</link>
+        <pubDate>Thu, 14 Apr 2022 18:45:06 +0900</pubDate>
+        <author>niossoft@gmail.com (Kevin Liu)</author>
+        <atom:modified>Thu, 14 Apr 2022 18:45:06 +0900</atom:modified>
+        <guid>https://niossoft.github.io/kevinliublog/ko/en/posts/aws-iam-note/</guid>
+        <description>AWS has Global Services:  Identity and Access Management(IAM) Route 53(DNS service) CloudFront(Content Delivery Network) WAF(Web Application Firewall)  Most AWS services are Region-scoped:  Amazon EC2(Infrastructure as a Service) Elastic Beanstalk(Platform as a Service) Lambda(Function as a Service) Rekognition(Software as a Service)  NOTICE: Must to make sure region-scoped services are available in your region. In oreder to best peformance, please choice the region geographically close to you.
+IAM Section  IAM = Identity and Access Management, Global service</description>
+        
+        <dc:creator>Kevin Liu</dc:creator>
+        <media:content url="https://niossoft.github.io/kevinliublog/images/logo/amazon-web-services-icon.svg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>AWS</category>
+            
+          
+            
+              <category>IAM</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>AWS</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
